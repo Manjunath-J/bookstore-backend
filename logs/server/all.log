@@ -50,3 +50,449 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T0
 info: Connected to the database. {"timestamp":"2024-02-12T07:52:17.929Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T07:54:12.699Z"}
 info: Connected to the database. {"timestamp":"2024-02-12T07:54:12.736Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T11:31:29.648Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T11:31:29.677Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T11:41:36.977Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T11:42:18.747Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T11:42:23.268Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T11:42:47.665Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T11:42:47.694Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T11:42:50.468Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T11:43:28.582Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T11:43:30.979Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T11:43:39.576Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T11:43:46.275Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T17:36:19.878Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T17:36:19.937Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T17:37:01.123Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T17:38:09.397Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T17:38:48.246Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T17:38:48.335Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T17:39:05.018Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T17:40:18.456Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T17:40:18.501Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T17:40:21.469Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/book/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T17:40:27.372Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/book/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-02-12T17:40:51.773Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/book/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T17:41:30.850Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T17:42:37.600Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books/62158a6505253301a4fda5df 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T17:43:15.409Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T17:44:31.780Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T17:44:31.828Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T17:45:11.166Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T17:45:11.206Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books/62158a6505253301a4fda5df 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T17:45:20.670Z"}
+error: uncaughtException: res.status is not a function
+TypeError: res.status is not a function
+    at _callee$ (D:\CFPWorkspace\BookStore-Project\bookstore-backend\src\controllers\/book.controller.js:13:9)
+    at tryCatch (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Mon Feb 12 2024 23:15:48 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1060393.484},"process":{"argv":["node","D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\src\\index.js"],"cwd":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18283103,"external":21370364,"heapTotal":92368896,"heapUsed":55103768,"rss":134672384},"pid":26432,"uid":null,"version":"v21.5.0"},"stack":"TypeError: res.status is not a function\n    at _callee$ (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\src\\controllers\\/book.controller.js:13:9)\n    at tryCatch (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-02-12T17:45:48.935Z","trace":[{"column":9,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\src\\controllers\\/book.controller.js","function":"_callee$","line":13,"method":null,"native":false},{"column":16,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":24,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T17:46:46.572Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T17:46:46.607Z"}
+error: uncaughtException: res.status is not a function
+TypeError: res.status is not a function
+    at _callee$ (D:\CFPWorkspace\BookStore-Project\bookstore-backend\src\controllers\/book.controller.js:13:9)
+    at tryCatch (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Mon Feb 12 2024 23:16:52 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1060456.937},"process":{"argv":["node","D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\src\\index.js"],"cwd":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18272131,"external":21359392,"heapTotal":91844608,"heapUsed":53564384,"rss":133046272},"pid":7024,"uid":null,"version":"v21.5.0"},"stack":"TypeError: res.status is not a function\n    at _callee$ (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\src\\controllers\\/book.controller.js:13:9)\n    at tryCatch (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-02-12T17:46:52.376Z","trace":[{"column":9,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\src\\controllers\\/book.controller.js","function":"_callee$","line":13,"method":null,"native":false},{"column":16,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":24,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T17:47:08.674Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T17:47:08.711Z"}
+error: uncaughtException: res.status is not a function
+TypeError: res.status is not a function
+    at _callee$ (D:\CFPWorkspace\BookStore-Project\bookstore-backend\src\controllers\/book.controller.js:13:9)
+    at tryCatch (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Mon Feb 12 2024 23:17:22 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1060486.625},"process":{"argv":["node","D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\src\\index.js"],"cwd":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18273101,"external":21360362,"heapTotal":91844608,"heapUsed":53124064,"rss":134205440},"pid":11244,"uid":null,"version":"v21.5.0"},"stack":"TypeError: res.status is not a function\n    at _callee$ (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\src\\controllers\\/book.controller.js:13:9)\n    at tryCatch (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-02-12T17:47:22.070Z","trace":[{"column":9,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\src\\controllers\\/book.controller.js","function":"_callee$","line":13,"method":null,"native":false},{"column":16,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":24,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T17:48:55.615Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T17:48:55.657Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T17:49:37.378Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T17:49:37.417Z"}
+error: uncaughtException: res.status is not a function
+TypeError: res.status is not a function
+    at _callee$ (D:\CFPWorkspace\BookStore-Project\bookstore-backend\src\controllers\/book.controller.js:13:9)
+    at tryCatch (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Mon Feb 12 2024 23:19:41 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1060626.234},"process":{"argv":["node","D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\src\\index.js"],"cwd":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18272131,"external":21359392,"heapTotal":91582464,"heapUsed":53904176,"rss":132890624},"pid":1608,"uid":null,"version":"v21.5.0"},"stack":"TypeError: res.status is not a function\n    at _callee$ (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\src\\controllers\\/book.controller.js:13:9)\n    at tryCatch (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-02-12T17:49:41.676Z","trace":[{"column":9,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\src\\controllers\\/book.controller.js","function":"_callee$","line":13,"method":null,"native":false},{"column":16,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":24,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T17:50:35.550Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T17:50:35.652Z"}
+error: uncaughtException: res.status is not a function
+TypeError: res.status is not a function
+    at _callee$ (D:\CFPWorkspace\BookStore-Project\bookstore-backend\src\controllers\/book.controller.js:13:9)
+    at tryCatch (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Mon Feb 12 2024 23:20:37 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1060682.531},"process":{"argv":["node","D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\src\\index.js"],"cwd":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18271813,"external":21357669,"heapTotal":97181696,"heapUsed":47051360,"rss":138448896},"pid":8768,"uid":null,"version":"v21.5.0"},"stack":"TypeError: res.status is not a function\n    at _callee$ (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\src\\controllers\\/book.controller.js:13:9)\n    at tryCatch (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-02-12T17:50:37.974Z","trace":[{"column":9,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\src\\controllers\\/book.controller.js","function":"_callee$","line":13,"method":null,"native":false},{"column":16,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":24,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T17:50:56.014Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T17:50:56.053Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T17:51:38.749Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T17:51:38.800Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books/filter 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T17:53:49.033Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T18:00:38.006Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T18:00:38.078Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T18:02:17.296Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T18:02:17.348Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T18:03:53.325Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T18:03:53.379Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T18:04:36.970Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T18:04:37.019Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T18:05:03.861Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T18:05:03.909Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T18:07:06.450Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T18:07:06.491Z"}

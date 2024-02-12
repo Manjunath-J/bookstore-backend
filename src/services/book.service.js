@@ -1,4 +1,5 @@
 import Book from '../models/book.model';
+import { comparePrices } from '../utils/book.util';
 
 export const getAllBooks = async () => {
   try {
@@ -20,11 +21,23 @@ export const getBookById = async (id) => {
 
 export const getBook = async (searchContent) => {
   try {
-    let data = await Book.find()
-    data = data.filter((e)=> {
-        if(searchContent === e.bookName || searchContent === e.author)
-            return e;
+    const content = new RegExp(searchContent, 'i')
+    let data = await Book.find({
+      $or: [
+        { bookName: { $regex: content } },
+        { author: { $regex: content } }
+      ]
     })
+    return data
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+
+export const filterPrice = async () => {
+  try {
+    const data = await Book.find().sort({ price: 1 }); 
     return data;
   } catch (error) {
     console.log(error);

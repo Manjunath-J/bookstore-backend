@@ -30,3 +30,61 @@ info: ::1 - - [12/Feb/2024:07:52:04 +0000] "GET /api/v1/books/filter HTTP/1.1" 2
 
 info: ::1 - - [12/Feb/2024:07:54:31 +0000] "GET /api/v1/books/filter HTTP/1.1" 200 366 "-" "PostmanRuntime/7.36.1"
 
+info: ::1 - - [12/Feb/2024:11:31:37 +0000] "GET /api/v1/books/filter HTTP/1.1" 200 9284 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [12/Feb/2024:11:41:12 +0000] "GET /api/v1/books HTTP/1.1" 200 9282 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [12/Feb/2024:11:43:55 +0000] "GET /api/v1/books/ HTTP/1.1" 200 9282 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [12/Feb/2024:11:44:15 +0000] "GET /api/v1/books/search HTTP/1.1" 200 662 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [12/Feb/2024:17:36:24 +0000] "GET /api/v1/books/ HTTP/1.1" 200 9282 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [12/Feb/2024:17:41:04 +0000] "GET /api/v1/book/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [12/Feb/2024:17:41:12 +0000] "POST /api/v1/book/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [12/Feb/2024:17:41:22 +0000] "GET /api/v1/book/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [12/Feb/2024:17:41:27 +0000] "GET /api/v1/book/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [12/Feb/2024:17:41:39 +0000] "GET /api/v1/book/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [12/Feb/2024:17:41:45 +0000] "GET /api/v1/book/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [12/Feb/2024:17:41:55 +0000] "GET /api/v1/book/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [12/Feb/2024:17:42:44 +0000] "GET /api/v1/books/ HTTP/1.1" 200 9282 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [12/Feb/2024:17:43:34 +0000] "GET /api/v1/books/62158a6505253301a4fda5df HTTP/1.1" 200 387 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [12/Feb/2024:17:45:39 +0000] "GET /api/v1/books/62158a6505253301a4fda5df HTTP/1.1" 200 387 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [12/Feb/2024:17:48:58 +0000] "GET /api/v1/books/ HTTP/1.1" 200 9282 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [12/Feb/2024:17:49:11 +0000] "GET /api/v1/books/ HTTP/1.1" 200 9282 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [12/Feb/2024:17:50:59 +0000] "GET /api/v1/books/ HTTP/1.1" 200 9282 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [12/Feb/2024:17:51:55 +0000] "GET /api/v1/books/621588af05253301a4fda5ce HTTP/1.1" 200 349 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [12/Feb/2024:17:52:45 +0000] "GET /api/v1/books/search HTTP/1.1" 200 351 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [12/Feb/2024:17:52:56 +0000] "GET /api/v1/books/ HTTP/1.1" 200 9282 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [12/Feb/2024:17:53:33 +0000] "GET /api/v1/books/search HTTP/1.1" 200 365 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [12/Feb/2024:17:53:57 +0000] "GET /api/v1/books/filter HTTP/1.1" 200 9284 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [12/Feb/2024:18:01:29 +0000] "GET /api/v1/books/search HTTP/1.1" 200 1095 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [12/Feb/2024:18:01:43 +0000] "GET /api/v1/books/search HTTP/1.1" 200 60 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [12/Feb/2024:18:01:51 +0000] "GET /api/v1/books/search HTTP/1.1" 200 1095 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [12/Feb/2024:18:04:02 +0000] "GET /api/v1/books/filter HTTP/1.1" 200 9284 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [12/Feb/2024:18:04:12 +0000] "GET /api/v1/books/filter HTTP/1.1" 200 9284 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [12/Feb/2024:18:04:18 +0000] "GET /api/v1/books/filter HTTP/1.1" 200 9284 "-" "PostmanRuntime/7.36.1"
+

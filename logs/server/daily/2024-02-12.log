@@ -50,3 +50,404 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T0
 info: Connected to the database. {"timestamp":"2024-02-12T07:52:17.929Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T07:54:12.699Z"}
 info: Connected to the database. {"timestamp":"2024-02-12T07:54:12.736Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T11:31:29.648Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T11:31:29.677Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T11:41:36.977Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T11:42:18.747Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T11:42:23.268Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T11:42:47.665Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T11:42:47.694Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T11:42:50.468Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T11:43:28.582Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T11:43:30.979Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T11:43:39.576Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T11:43:46.275Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T17:36:19.878Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T17:36:19.937Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T17:37:01.123Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T17:38:09.397Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T17:38:48.246Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T17:38:48.335Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T17:39:05.018Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T17:40:18.456Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T17:40:18.501Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T17:40:21.469Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/book/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T17:40:27.372Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/book/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-02-12T17:40:51.773Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/book/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T17:41:30.850Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T17:42:37.600Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books/62158a6505253301a4fda5df 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T17:43:15.409Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T17:44:31.780Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T17:44:31.828Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T17:45:11.166Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T17:45:11.206Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books/62158a6505253301a4fda5df 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T17:45:20.670Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T17:46:46.572Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T17:46:46.607Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T17:47:08.674Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T17:47:08.711Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T17:48:55.615Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T17:48:55.657Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T17:49:37.378Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T17:49:37.417Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T17:50:35.550Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T17:50:35.652Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T17:50:56.014Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T17:50:56.053Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T17:51:38.749Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T17:51:38.800Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CFPWorkspace\BookStore-Project\bookstore-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/books/filter 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-12T17:53:49.033Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T18:00:38.006Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T18:00:38.078Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T18:02:17.296Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T18:02:17.348Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T18:03:53.325Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T18:03:53.379Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T18:04:36.970Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T18:04:37.019Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T18:05:03.861Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T18:05:03.909Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-12T18:07:06.450Z"}
+info: Connected to the database. {"timestamp":"2024-02-12T18:07:06.491Z"}

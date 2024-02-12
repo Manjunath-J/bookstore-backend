@@ -1,5 +1,5 @@
 import User from '../models/user.model';
-import { hashPassword, verifyPassword } from '../utils/password.util';
+import { hashPassword, verifyPassword } from '../utils/user.util';
 
 
 //create new user
