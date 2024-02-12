@@ -21,10 +21,26 @@ export const getBookById = async (req, res, next) => {
   try {
     const data = await BookService.getBookById(req.params._id);
     res.status(HttpStatus.OK).json({
-        code: HttpStatus.OK,
-        data: data,
-        message: 'Book fetched successfully'
-      });
+      code: HttpStatus.OK,
+      data: data,
+      message: 'Book fetched successfully'
+    });
+  } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
+  }
+};
+
+export const getBook = async (req, res, next) => {
+  try {
+    const data = await BookService.getBook(req.body.searchContent);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'Book fetched successfully'
+    });
   } catch (error) {
     res.status(HttpStatus.BAD_REQUEST).json({
       code: HttpStatus.BAD_REQUEST,
