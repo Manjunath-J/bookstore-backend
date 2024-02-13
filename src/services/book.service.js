@@ -1,5 +1,4 @@
 import Book from '../models/book.model';
-import { comparePrices } from '../utils/book.util';
 
 export const getAllBooks = async () => {
   try {
