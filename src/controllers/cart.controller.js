@@ -1,10 +1,10 @@
 import HttpStatus from 'http-status-codes';
 import * as cartService from '../services/cart.service';
+import { error } from '@hapi/joi/lib/base';
 
 export const addToCart = async (req, res) => {
   try {
-    console.log(req.header('Authorization'));
-    const data = await cartService.addToCart(req.params._id,req.body);
+    const data = await cartService.addToCart(req.params._id, req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
@@ -50,27 +50,4 @@ export const getCart = async (req, res) => {
   }
 };
 
-export const isPurchase = async (req, res) => {
-  try {
-    
-    const data = await cartService.isPurchase(req.body);
-    res.status(HttpStatus.OK).json({
-      code: HttpStatus.OK,
-      data: data,
-      message: 'Successfull'
-    });
-  } catch (error) {
-    if (error.message === 'Book not found in the cart.') {
-      return res.status(HttpStatus.NOT_FOUND).json({
-        code: HttpStatus.NOT_FOUND,
-        message: error.message
-      });
-    } else {
-      console.error("Error in isPurchase:", error);
-      return res.status(HttpStatus.BAD_REQUEST).json({
-        code: HttpStatus.BAD_REQUEST,
-        message: 'Error'
-      });
-    }
-  }
-};
+

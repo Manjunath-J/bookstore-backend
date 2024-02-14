@@ -156,3 +156,225 @@ TypeError: Router.use() requires a middleware function but got a Object
     at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)
     at node:internal/main/run_main_module:28:49 {"date":"Tue Feb 13 2024 12:11:10 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1106915.265},"process":{"argv":["node","D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\src\\index.js"],"cwd":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18315977,"external":21384101,"heapTotal":92987392,"heapUsed":61516072,"rss":132067328},"pid":14816,"uid":null,"version":"v21.5.0"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\src\\routes\\/index.js:14:10)\n    at Object.<anonymous> (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1375:14)\n    at Module._compile (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1434:10)\n    at Object.newLoader [as .js] (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1206:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)\n    at Function.runMain (node:internal/modules/run_main:142:12)\n    at Object.<anonymous> (D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1375:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1434:10)\n    at Module.load (node:internal/modules/cjs/loader:1206:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)\n    at node:internal/main/run_main_module:28:49","trace":[{"column":13,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\src\\routes\\/index.js","function":"routes","line":14,"method":null,"native":false},{"column":38,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1375,"method":"_compile","native":false},{"column":24,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1434,"method":".js","native":false},{"column":7,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1206,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1022,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":142,"method":"runMain","native":false},{"column":12,"file":"D:\\CFPWorkspace\\BookStore-Project\\bookstore-backend\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1375,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1434,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1206,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1022,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":142,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":28,"method":null,"native":false}]}
+info: ::1 - - [13/Feb/2024:10:42:23 +0000] "GET /api/v1/user HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:10:43:52 +0000] "POST /api/v1/users HTTP/1.1" 201 321 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:10:44:00 +0000] "POST /api/v1/users HTTP/1.1" 400 67 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:10:44:19 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 215 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:10:45:00 +0000] "POST /api/v1/users/ HTTP/1.1" 201 320 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:10:45:07 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 215 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:10:47:56 +0000] "GET /api/v1/books HTTP/1.1" 400 40 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:10:48:18 +0000] "GET /api/v1/books/filter HTTP/1.1" 400 40 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:10:48:51 +0000] "GET /api/v1/books/filter HTTP/1.1" 200 9293 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:10:58:15 +0000] "POST /api/v1/users HTTP/1.1" 201 320 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:10:58:24 +0000] "POST /api/v1/users HTTP/1.1" 201 321 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:10:58:33 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 215 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:10:58:47 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 215 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:00:04 +0000] "GET /api/v1/books/filter HTTP/1.1" 200 9293 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:00:10 +0000] "GET /api/v1/books/search HTTP/1.1" 200 9277 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:01:01 +0000] "GET /api/v1/books/search HTTP/1.1" 200 350 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:01:12 +0000] "GET /api/v1/books/search HTTP/1.1" 200 350 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:01:20 +0000] "GET /api/v1/books/search HTTP/1.1" 200 6433 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:02:16 +0000] "GET /api/v1/books/search HTTP/1.1" 200 9277 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:02:47 +0000] "POST /api/v1/cart/616fdcc474dbc1000e41e655 HTTP/1.1" 400 51 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:05:35 +0000] "POST /api/v1/cart/616fdcc474dbc1000e41e655 HTTP/1.1" 400 61 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:06:32 +0000] "POST /api/v1/cart/616fdcc474dbc1000e41e655 HTTP/1.1" 400 61 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:07:04 +0000] "POST /api/v1/cart/616fdcc474dbc1000e41e655 HTTP/1.1" 400 61 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:08:08 +0000] "POST /api/v1/cart/616fdcc474dbc1000e41e655 HTTP/1.1" 400 61 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:09:34 +0000] "POST /api/v1/cart/616fdcc474dbc1000e41e655 HTTP/1.1" 400 61 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:10:00 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 215 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:10:26 +0000] "GET /api/v1/cart HTTP/1.1" 200 68 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:10:41 +0000] "GET /api/v1/books/filter HTTP/1.1" 200 9293 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:10:57 +0000] "POST /api/v1/cart/621588af05253301a4fda5ce HTTP/1.1" 200 236 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:11:58 +0000] "POST /api/v1/cart/621588af05253301a4fda5ce HTTP/1.1" 200 330 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:12:25 +0000] "POST /api/v1/cart/6215890d05253301a4fda5d1 HTTP/1.1" 200 437 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:12:50 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 215 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:13:27 +0000] "POST /api/v1/cart/6215897105253301a4fda5d5 HTTP/1.1" 200 538 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:18:02 +0000] "POST /api/v1/cart/6215897105253301a4fda5d5 HTTP/1.1" 200 640 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:18:27 +0000] "DELETE /api/v1/cart/6215897105253301a4fda5d5 HTTP/1.1" 400 65 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:19:09 +0000] "DELETE /api/v1/cart/6215897105253301a4fda5d5 HTTP/1.1" 200 42 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:19:12 +0000] "DELETE /api/v1/cart/6215897105253301a4fda5d5 HTTP/1.1" 200 42 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:19:20 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 645 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:19:39 +0000] "DELETE /api/v1/cart/65cb4ed735007639dc552009 HTTP/1.1" 200 42 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:19:48 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 645 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:20:47 +0000] "POST /api/v1/cart/65cb4e4135007639dc551ff6 HTTP/1.1" 400 51 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:21:41 +0000] "POST /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 200 248 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:21:58 +0000] "POST /api/v1/cart/621588af05253301a4fda5ce HTTP/1.1" 200 342 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:22:14 +0000] "POST /api/v1/cart/621588af05253301a4fda5ce HTTP/1.1" 200 437 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:25:28 +0000] "POST /api/v1/cart/621588af05253301a4fda5ce HTTP/1.1" 200 531 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:26:51 +0000] "POST /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 400 51 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:27:21 +0000] "POST /api/v1/cart/621588d505253301a4fda5cf HTTP/1.1" 200 287 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [13/Feb/2024:11:27:57 +0000] "POST /api/v1/cart/621588d505253301a4fda5cf HTTP/1.1" 200 287 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:07:50 +0000] "POST /api/v1/cart/6215899f05253301a4fda5d7 HTTP/1.1" 200 639 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:08:33 +0000] "DELETE /api/v1/cart/65cb523d9da9c564ec1ed843 HTTP/1.1" 200 42 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:08:43 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 644 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:09:11 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 292 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:09:27 +0000] "GET /api/v1/cart/621589cd05253301a4fda5d9 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:09:31 +0000] "POST /api/v1/cart/621589cd05253301a4fda5d9 HTTP/1.1" 200 391 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:09:45 +0000] "DELETE /api/v1/cart/621589cd05253301a4fda5d9 HTTP/1.1" 200 42 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:09:53 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 396 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:16:09 +0000] "DELETE /api/v1/cart/62158a4505253301a4fda5de HTTP/1.1" 200 42 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:17:12 +0000] "DELETE /api/v1/cart/62158a4505253301a4fda5de HTTP/1.1" 200 42 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:20:07 +0000] "DELETE /api/v1/cart/62158a4505253301a4fda5de HTTP/1.1" 400 12 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:20:38 +0000] "DELETE /api/v1/cart/62158a4505253301a4fda5de HTTP/1.1" 200 42 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:21:13 +0000] "DELETE /api/v1/cart/62158a4505253301a4fda5de HTTP/1.1" 200 42 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:21:49 +0000] "DELETE /api/v1/cart/62158a4505253301a4fda5de HTTP/1.1" 200 42 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:23:25 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 396 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:23:40 +0000] "DELETE /api/v1/cart/65cc4b0b223c6b0e043fd141 HTTP/1.1" 200 42 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:24:14 +0000] "DELETE /api/v1/cart/65cc4b0b223c6b0e043fd141 HTTP/1.1" 200 42 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:24:22 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 396 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:25:11 +0000] "DELETE /api/v1/cart/65cc4b0b223c6b0e043fd141 HTTP/1.1" 200 42 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:26:03 +0000] "DELETE /api/v1/cart/65cc4b0b223c6b0e043fd141 HTTP/1.1" 200 42 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:29:26 +0000] "DELETE /api/v1/cart/65cc4b0b223c6b0e043fd141 HTTP/1.1" 200 42 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:30:45 +0000] "DELETE /api/v1/cart/65cc4b0b223c6b0e043fd141 HTTP/1.1" 200 42 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:38:01 +0000] "DELETE /api/v1/cart/65cc4b0b223c6b0e043fd141 HTTP/1.1" 200 42 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:39:23 +0000] "DELETE /api/v1/cart/65cc4b0b223c6b0e043fd141 HTTP/1.1" 200 42 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:40:49 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 396 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:41:06 +0000] "GET /api/v1/cart/65cc4b0b223c6b0e043fd141 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:41:09 +0000] "DELETE /api/v1/cart/65cc4b0b223c6b0e043fd141 HTTP/1.1" 200 42 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:41:17 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 396 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:41:51 +0000] "DELETE /api/v1/cart/65cc4b0b223c6b0e043fd141 HTTP/1.1" 200 42 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:41:58 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 396 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:45:02 +0000] "DELETE /api/v1/cart/65cc4b0b223c6b0e043fd141 HTTP/1.1" 200 279 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:48:24 +0000] "POST /api/v1/cart/65cb52199da9c564ec1ed83c HTTP/1.1" 400 51 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:48:45 +0000] "POST /api/v1/cart/62158a4505253301a4fda5de HTTP/1.1" 200 385 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:48:59 +0000] "POST /api/v1/cart/62158a4505253301a4fda5de HTTP/1.1" 200 482 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:49:34 +0000] "DELETE /api/v1/cart/62158a4505253301a4fda5de HTTP/1.1" 200 42 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:49:42 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 487 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:54:30 +0000] "POST /api/v1/cart/621588af05253301a4fda5ce HTTP/1.1" 200 310 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:55:08 +0000] "POST /api/v1/cart/621588af05253301a4fda5ce HTTP/1.1" 200 310 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:56:06 +0000] "POST /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 400 51 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:56:22 +0000] "POST /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 200 454 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:58:07 +0000] "DELETE /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 200 302 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:05:58:25 +0000] "DELETE /api/v1/cart/621588af05253301a4fda5ce HTTP/1.1" 200 172 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:06:03:42 +0000] "POST /api/v1/cart/621588af05253301a4fda5ce HTTP/1.1" 400 51 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:06:04:59 +0000] "POST /api/v1/cart/621588af05253301a4fda5ce HTTP/1.1" 400 51 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:06:05:43 +0000] "POST /api/v1/cart/621588af05253301a4fda5ce HTTP/1.1" 200 311 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:06:05:50 +0000] "POST /api/v1/cart/621588af05253301a4fda5ce HTTP/1.1" 200 311 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:06:06:11 +0000] "POST /api/v1/cart/621588f105253301a4fda5d0 HTTP/1.1" 200 449 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:06:06:15 +0000] "POST /api/v1/cart/621588f105253301a4fda5d0 HTTP/1.1" 200 449 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:06:06:41 +0000] "POST /api/v1/cart/621588f105253301a4fda5d0 HTTP/1.1" 200 317 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:06:06:43 +0000] "POST /api/v1/cart/621588f105253301a4fda5d0 HTTP/1.1" 200 317 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:06:06:59 +0000] "POST /api/v1/cart/6215888305253301a4fda5cd HTTP/1.1" 200 461 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:06:16:04 +0000] "DELETE /api/v1/cart/6215888305253301a4fda5cd HTTP/1.1" 200 42 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:06:16:12 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 323 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:06:33:49 +0000] "DELETE /api/v1/cart/621588f105253301a4fda5d0 HTTP/1.1" 200 309 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:06:36:57 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 68 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:06:37:04 +0000] "POST /api/v1/cart/6215888305253301a4fda5cd HTTP/1.1" 200 322 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:06:37:12 +0000] "POST /api/v1/cart/6215888305253301a4fda5cd HTTP/1.1" 200 323 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:06:37:35 +0000] "POST /api/v1/cart/621588af05253301a4fda5ce HTTP/1.1" 200 454 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:06:38:04 +0000] "DELETE /api/v1/cart/6215888305253301a4fda5cd HTTP/1.1" 200 445 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:06:38:26 +0000] "DELETE /api/v1/cart/621588af05253301a4fda5ce HTTP/1.1" 200 42 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:06:38:45 +0000] "GET /api/v1/cart/621588af05253301a4fda5ce HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:06:38:50 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 459 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:06:40:06 +0000] "DELETE /api/v1/cart/621588af05253301a4fda5ce HTTP/1.1" 200 313 "-" "PostmanRuntime/7.36.3"
+
