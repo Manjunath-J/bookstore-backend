@@ -124,3 +124,35 @@ info: ::1 - - [14/Feb/2024:06:38:50 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 459 
 
 info: ::1 - - [14/Feb/2024:06:40:06 +0000] "DELETE /api/v1/cart/621588af05253301a4fda5ce HTTP/1.1" 200 313 "-" "PostmanRuntime/7.36.3"
 
+info: ::1 - - [14/Feb/2024:10:06:03 +0000] "GET /api/v1/wishlist HTTP/1.1" 200 48 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:10:06:16 +0000] "GET /api/v1/wishlist/621588af05253301a4fda5ce HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:10:06:20 +0000] "POST /api/v1/wishlist/621588af05253301a4fda5ce HTTP/1.1" 200 227 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:10:06:24 +0000] "POST /api/v1/wishlist/621588af05253301a4fda5ce HTTP/1.1" 200 110 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:10:06:28 +0000] "POST /api/v1/wishlist/621588af05253301a4fda5ce HTTP/1.1" 400 73 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:10:07:34 +0000] "POST /api/v1/wishlist/621588af05253301a4fda5ce HTTP/1.1" 200 227 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:10:07:38 +0000] "POST /api/v1/wishlist/621588af05253301a4fda5ce HTTP/1.1" 200 110 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:10:07:39 +0000] "POST /api/v1/wishlist/621588af05253301a4fda5ce HTTP/1.1" 200 227 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:10:07:41 +0000] "POST /api/v1/wishlist/621588af05253301a4fda5ce HTTP/1.1" 200 110 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:10:07:42 +0000] "POST /api/v1/wishlist/621588af05253301a4fda5ce HTTP/1.1" 200 227 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:10:07:45 +0000] "POST /api/v1/wishlist/621588af05253301a4fda5ce HTTP/1.1" 200 110 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:10:07:47 +0000] "POST /api/v1/wishlist/621588af05253301a4fda5ce HTTP/1.1" 200 227 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:10:07:57 +0000] "POST /api/v1/wishlist/621588f105253301a4fda5d0 HTTP/1.1" 200 352 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:10:08:01 +0000] "POST /api/v1/wishlist/621588f105253301a4fda5d0 HTTP/1.1" 200 227 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:10:08:05 +0000] "POST /api/v1/wishlist/621588f105253301a4fda5d0 HTTP/1.1" 200 352 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [14/Feb/2024:10:13:56 +0000] "DELETE /api/v1/wishlist/621588f105253301a4fda5d0 HTTP/1.1" 200 227 "-" "PostmanRuntime/7.36.3"
+
