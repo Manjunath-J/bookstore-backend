@@ -50,4 +50,18 @@ export const getCart = async (req, res) => {
   }
 };
 
-
+export const isPurchase = async (req, res) => {
+  try {
+    const data = await cartService.ispurchase(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'successfull'
+    });
+  } catch (error) {
+    return res.status(HttpStatus.NOT_FOUND).json({
+      code: HttpStatus.NOT_FOUND,
+      message: error.message
+    });
+  }
+};

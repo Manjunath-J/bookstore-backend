@@ -125,3 +125,24 @@ export const removeCart = async (bookId, userDetails) => {
     console.log(error);
   }
 };
+
+
+export const ispurchase = async (bookDetails) => {
+  try {
+    const cartData = await Cart.findOne({
+      user_id: bookDetails.user_id
+    });
+
+    if (cartData.items.length === 0) {
+      throw new Error('Cart is empty');
+    }
+
+    cartData.isPurchase = true;
+    await cartData.save();
+
+    return cartData;
+  } catch (error) {
+    console.error('Error in ispurchase:', error);
+    throw error;
+  }
+};

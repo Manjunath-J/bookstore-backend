@@ -10,4 +10,6 @@ router.get('', userAuth, cartController.getCart);
 
 router.delete('/:_id', userAuth, cartController.removeCart);
 
+router.put('/:_id', userAuth, cartController.isPurchase);
+
 export default router;

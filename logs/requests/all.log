@@ -446,3 +446,19 @@ info: ::1 - - [15/Feb/2024:12:27:19 +0000] "POST /api/v1/address HTTP/1.1" 200 6
 
 info: ::1 - - [15/Feb/2024:12:31:55 +0000] "GET /api/v1/address HTTP/1.1" 200 605 "-" "PostmanRuntime/7.36.3"
 
+info: ::1 - - [15/Feb/2024:12:40:43 +0000] "GET /api/v1/cart HTTP/1.1" 200 327 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [15/Feb/2024:12:41:25 +0000] "PUT /api/v1/cart/65cb4b508329990e0c4a438a HTTP/1.1" 200 307 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [15/Feb/2024:12:41:31 +0000] "PUT /api/v1/cart/65cb4b508329990e0c4a438a HTTP/1.1" 200 307 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [15/Feb/2024:12:43:06 +0000] "PUT /api/v1/cart/65cb4b508329990e0c4a438a HTTP/1.1" 200 307 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [15/Feb/2024:12:43:09 +0000] "PUT /api/v1/cart/65cb4b508329990e0c4a438a HTTP/1.1" 200 307 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [15/Feb/2024:12:43:18 +0000] "PUT /api/v1/cart/65cc5f9029fb445a20ed66ae HTTP/1.1" 200 307 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [15/Feb/2024:12:43:50 +0000] "PUT /api/v1/cart/65cc5f9029fb445a20ed66ae HTTP/1.1" 200 307 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [15/Feb/2024:12:44:44 +0000] "PUT /api/v1/cart/65cc5f9029fb445a20ed66ae HTTP/1.1" 200 306 "-" "PostmanRuntime/7.36.3"
+
