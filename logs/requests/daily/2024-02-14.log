@@ -156,3 +156,5 @@ info: ::1 - - [14/Feb/2024:10:08:05 +0000] "POST /api/v1/wishlist/621588f1052533
 
 info: ::1 - - [14/Feb/2024:10:13:56 +0000] "DELETE /api/v1/wishlist/621588f105253301a4fda5d0 HTTP/1.1" 200 227 "-" "PostmanRuntime/7.36.3"
 
+info: ::1 - - [14/Feb/2024:11:28:39 +0000] "POST /api/v1/address HTTP/1.1" 400 103 "-" "PostmanRuntime/7.36.3"
+

@@ -410,3 +410,39 @@ info: ::1 - - [14/Feb/2024:10:08:05 +0000] "POST /api/v1/wishlist/621588f1052533
 
 info: ::1 - - [14/Feb/2024:10:13:56 +0000] "DELETE /api/v1/wishlist/621588f105253301a4fda5d0 HTTP/1.1" 200 227 "-" "PostmanRuntime/7.36.3"
 
+info: ::1 - - [14/Feb/2024:11:28:39 +0000] "POST /api/v1/address HTTP/1.1" 400 103 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [15/Feb/2024:11:22:39 +0000] "POST /api/v1/address HTTP/1.1" 400 103 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [15/Feb/2024:11:23:01 +0000] "POST /api/v1/address HTTP/1.1" 400 103 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [15/Feb/2024:11:24:03 +0000] "POST /api/v1/address HTTP/1.1" 400 103 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [15/Feb/2024:11:24:08 +0000] "POST /api/v1/address HTTP/1.1" 400 103 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [15/Feb/2024:11:24:30 +0000] "POST /api/v1/address HTTP/1.1" 400 103 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [15/Feb/2024:11:29:30 +0000] "POST /api/v1/address HTTP/1.1" 400 103 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [15/Feb/2024:11:30:37 +0000] "POST /api/v1/address HTTP/1.1" 400 103 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [15/Feb/2024:11:31:25 +0000] "POST /api/v1/address HTTP/1.1" 400 103 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [15/Feb/2024:11:32:15 +0000] "POST /api/v1/address HTTP/1.1" 400 103 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [15/Feb/2024:12:23:04 +0000] "POST /api/v1/address HTTP/1.1" 400 103 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [15/Feb/2024:12:23:57 +0000] "POST /api/v1/address HTTP/1.1" 400 103 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [15/Feb/2024:12:25:32 +0000] "POST /api/v1/address HTTP/1.1" 200 281 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [15/Feb/2024:12:25:49 +0000] "POST /api/v1/address HTTP/1.1" 400 103 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [15/Feb/2024:12:26:03 +0000] "POST /api/v1/address HTTP/1.1" 400 103 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [15/Feb/2024:12:26:36 +0000] "POST /api/v1/address HTTP/1.1" 200 442 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [15/Feb/2024:12:27:19 +0000] "POST /api/v1/address HTTP/1.1" 200 605 "-" "PostmanRuntime/7.36.3"
+
+info: ::1 - - [15/Feb/2024:12:31:55 +0000] "GET /api/v1/address HTTP/1.1" 200 605 "-" "PostmanRuntime/7.36.3"
+
