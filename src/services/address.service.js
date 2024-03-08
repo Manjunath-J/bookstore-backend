@@ -6,7 +6,6 @@ export const addAddress = async (userDetails) => {
     const userData = await Address.findOne({ user_id: user_id });
 
     if (!userData) {
-      console.log('2');
       const address = await Address.create({
         user_id: user_id,
         address: [

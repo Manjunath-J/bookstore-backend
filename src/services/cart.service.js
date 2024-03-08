@@ -22,7 +22,7 @@ export const addToCart = async (bookId, details) => {
       {
         $inc: {
           'items.$.quantity': 1,
-          total: book.price
+          total: book.discountPrice
         }
       },
       { new: true }
@@ -41,11 +41,11 @@ export const addToCart = async (bookId, details) => {
               book_id: book._id,
               bookImage: book.bookImage,
               bookName: book.bookName,
-              price: book.price,
+              price: book.discountPrice,
               quantity: 1
             }
           ],
-          total: book.price
+          total: book.discountPrice
         });
         return cartData;
       }
@@ -55,11 +55,11 @@ export const addToCart = async (bookId, details) => {
         book_id: book._id,
         bookImage: book.bookImage,
         bookName: book.bookName,
-        price: book.price,
+        price: book.discountPrice,
         quantity: 1
       });
 
-      cartData.total += book.price;
+      cartData.total += book.discountPrice;
       await cartData.save();
 
       return cartData;
@@ -67,12 +67,10 @@ export const addToCart = async (bookId, details) => {
 
     return updateResult;
   } catch (error) {
-    console.log(error)
+    console.log(error);
     throw new Error('Failed to add item to cart');
   }
 };
-
-
 
 export const getCart = async (user) => {
   try {
@@ -82,8 +80,6 @@ export const getCart = async (user) => {
     console.log(error);
   }
 };
-
-
 
 export const removeCart = async (bookId, userDetails) => {
   try {
@@ -100,23 +96,22 @@ export const removeCart = async (bookId, userDetails) => {
       (item) => item.book_id == bookId
     );
     if (itemIndex !== -1) {
-      cartData.total -= cartData.items[itemIndex].price
+      cartData.total -= cartData.items[itemIndex].price;
 
       // Remove the item from the cart items array
-      if(cartData.items[itemIndex].quantity === 1){
-        cartData.items.splice(itemIndex, 1)
-      }
-      else {
+      if (cartData.items[itemIndex].quantity === 1) {
+        cartData.items.splice(itemIndex, 1);
+      } else {
         cartData.items[itemIndex].quantity -= 1;
       }
 
-      book.quantity +=1;
+      book.quantity += 1;
       // Save the updated cart
       await book.save();
       await cartData.save();
 
       console.log('Item removed successfully.');
-      
+
       return cartData;
     } else {
       throw new Error('Item not found in the cart.');
@@ -125,7 +120,6 @@ export const removeCart = async (bookId, userDetails) => {
     console.log(error);
   }
 };
-
 
 export const ispurchase = async (bookDetails) => {
   try {
@@ -144,5 +138,14 @@ export const ispurchase = async (bookDetails) => {
   } catch (error) {
     console.error('Error in ispurchase:', error);
     throw error;
+  }
+};
+
+export const deleteCart = async (userDetails) => {
+  try {
+    await Cart.findOneAndDelete({ user_id: userDetails.user_id });
+    
+  } catch (error) {
+    console.log(error);
   }
 };

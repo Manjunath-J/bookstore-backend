@@ -4,10 +4,10 @@ import HttpStatus from 'http-status-codes';
 export const newUserValidator = (req, res, next) => {
   let regex =  /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@.#$!%*?&^])[A-Za-z\d@.#$!%*?&]{8,15}$/;
   const schema = Joi.object({
-    firstName: Joi.string().min(4).required(),
-    lastName: Joi.string().min(1).required(),
+    fullName: Joi.string().min(4).required(),
     email: Joi.string().email().required(),
-    password: Joi.string().min(8).required().pattern(regex)
+    password: Joi.string().min(8).required().pattern(regex),
+    mobileNumber: Joi.number().min(10).required() 
   });                                                          
   const { error, value } = schema.validate(req.body);
   if (error) {
