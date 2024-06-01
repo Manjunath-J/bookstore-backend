@@ -5,7 +5,7 @@
   "main": "build/index.js",
   "scripts": {
     "dev": "nodemon --exec babel-node src/index.js",
-    "build": "rimraf build && babel src --out-dir build",
+    "build": "[my-framework] build --output public",
     "prestart": "rimraf build && babel src --out-dir build",
     "start": "node build/index.js",
     "test": "cross-env NODE_ENV=test mocha --exit --recursive --require @babel/register --timeout=5000 tests/**/*.js",
